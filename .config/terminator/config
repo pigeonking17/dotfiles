@@ -1,0 +1,39 @@
+[global_config]
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+  title_use_system_font = False
+  title_font = Source Code Pro Semi-Bold 15
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1e1f29"
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro Semi-Bold 11
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    use_system_font = False
+  [[Nord]]
+    background_color = "#2E3440"
+    background_darkness = 0.92
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#D8DEE9"
+    font = Source Code Pro Semi-Bold 11
+    foreground_color = "#D8DEE9"
+    show_titlebar = False
+    disable_mousewheel_zoom = True
+    palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#e5e9f0:#4c566a:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#8fbcbb:#eceff4"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
